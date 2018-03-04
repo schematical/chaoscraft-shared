@@ -1,0 +1,17 @@
+{
+  "name": "chaoscraft-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@types/node": "^7.0.5",
+    "underscore": "^1.8.3"
+  }
+}
