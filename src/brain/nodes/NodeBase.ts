@@ -92,5 +92,8 @@ class NodeBase{
             fun(dependantRelationship)
         })
     }
+    public serialize(){
+        return this.rawNode;
+    }
 }
 export { NodeBase }

@@ -1,7 +1,7 @@
 /**
  * Created by user1a on 2/28/18.
  */
-import {  Enum  } from '../../Enum'
+import { Enum } from '../../Enum'
 import * as _ from 'underscore'
 import { NodeBase } from './NodeBase'
 import { InputNodeTarget } from '../InputNodeTarget'
@@ -50,6 +50,7 @@ class InputNodeBase extends NodeBase{
     }
     evaluate():NodeEvaluateResult{
         let results:NodeEvaluateResult = null;
+
         switch(this.type){
             case(Enum.InputTypes.canDigBlock):
                 results = this.canDigBlock();
