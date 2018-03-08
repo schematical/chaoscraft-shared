@@ -60,6 +60,7 @@ class EnumInputTypes {
         this.entityMoved = 'entityMoved';
         this.entitySwingArm = 'entitySwingArm';
         this.entitySpawn = 'entitySpawn';
+        this.entityHurt = 'entityHurt';
         this.playerCollect = 'playerCollect';
         this.entityUpdate = 'entityUpdate';
         this.blockUpdate = 'blockUpdate';

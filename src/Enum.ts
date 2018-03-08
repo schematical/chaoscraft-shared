@@ -59,6 +59,7 @@ class EnumInputTypes{
     entityMoved:string = 'entityMoved';
     entitySwingArm:string ='entitySwingArm';
     entitySpawn:string = 'entitySpawn';
+    entityHurt:string = 'entityHurt';
     playerCollect:string = 'playerCollect';
     entityUpdate:string = 'entityUpdate';
     blockUpdate:string = 'blockUpdate';
