@@ -31,6 +31,7 @@ class EnumOutputTypes{
     lookUp:string = 'lookUp';
     lookDown:string = 'lookDown';
     toss:string = 'toss';
+    tossStack:string = 'tossStack';
     activateBlock:string = 'activateBlock';
     activateEntity:string = 'activateEntity';
     useOn:string = 'useOn';
@@ -42,12 +43,14 @@ class EnumOutputTypes{
     openVillager:string = 'openVillager';
     trade:string = 'trade';
     openEntity:string = 'openEntity';
+    equipAndPlace:string = 'equipAndPlace';
 
 
 
 
 }
 class EnumInputTypes{
+    collision:string = 'collision';
     health:string = 'health';
     canDigBlock:string = 'canDigBlock';
     hasInInventory:string = 'hasInInventory';

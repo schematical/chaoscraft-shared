@@ -34,6 +34,7 @@ class EnumOutputTypes {
         this.lookUp = 'lookUp';
         this.lookDown = 'lookDown';
         this.toss = 'toss';
+        this.tossStack = 'tossStack';
         this.activateBlock = 'activateBlock';
         this.activateEntity = 'activateEntity';
         this.useOn = 'useOn';
@@ -45,10 +46,12 @@ class EnumOutputTypes {
         this.openVillager = 'openVillager';
         this.trade = 'trade';
         this.openEntity = 'openEntity';
+        this.equipAndPlace = 'equipAndPlace';
     }
 }
 class EnumInputTypes {
     constructor() {
+        this.collision = 'collision';
         this.health = 'health';
         this.canDigBlock = 'canDigBlock';
         this.hasInInventory = 'hasInInventory';
