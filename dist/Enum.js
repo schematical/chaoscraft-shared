@@ -11,6 +11,7 @@ class Enum {
 exports.Enum = Enum;
 class EnumOutputTypes {
     constructor() {
+        this.walkTo = 'walkTo';
         this.navigateTo = 'navigateTo';
         this.chat = 'chat';
         this.walkForward = 'walkForward';
@@ -51,12 +52,15 @@ class EnumOutputTypes {
 }
 class EnumInputTypes {
     constructor() {
+        this.isOn = 'isOn';
+        this.isIn = 'isIn';
         this.collision = 'collision';
         this.health = 'health';
         this.canDigBlock = 'canDigBlock';
         this.hasInInventory = 'hasInInventory';
         this.canSeeEntity = 'canSeeEntity';
         this.canSeeBlock = 'canSeeBlock';
+        this.canTouchBlock = 'canTouchBlock';
         this.chat = 'chat';
         this.onCorrelateAttack = 'onCorrelateAttack';
         this.rain = 'rain';

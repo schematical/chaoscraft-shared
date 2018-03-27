@@ -8,6 +8,7 @@ class Enum{
     }
 }
 class EnumOutputTypes{
+    walkTo:string = 'walkTo';
     navigateTo:string = 'navigateTo';
     chat:string = 'chat';
     walkForward:string = 'walkForward';
@@ -50,12 +51,15 @@ class EnumOutputTypes{
 
 }
 class EnumInputTypes{
+    isOn:string = 'isOn';
+    isIn:string = 'isIn';
     collision:string = 'collision';
     health:string = 'health';
     canDigBlock:string = 'canDigBlock';
     hasInInventory:string = 'hasInInventory';
     canSeeEntity:string = 'canSeeEntity';
     canSeeBlock:string = 'canSeeBlock';
+    canTouchBlock:string = 'canTouchBlock';
     chat:string = 'chat';
     onCorrelateAttack:string = 'onCorrelateAttack';
     rain:string = 'rain';
