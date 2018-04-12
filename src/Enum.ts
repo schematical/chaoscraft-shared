@@ -57,6 +57,7 @@ class EnumInputTypes{
     health:string = 'health';
     canDigBlock:string = 'canDigBlock';
     hasInInventory:string = 'hasInInventory';
+    hasRecipeInInventory:string = 'hasRecipeInInventory';
     canSeeEntity:string = 'canSeeEntity';
     canSeeBlock:string = 'canSeeBlock';
     canTouchBlock:string = 'canTouchBlock';
@@ -77,5 +78,7 @@ class EnumInputTypes{
     chestLidMove:string = 'chestLidMove';
     blockBreakProgressEnd:string = 'blockBreakProgressEnd';
     blockBreakProgressObserved:string = 'blockBreakProgressObserved';
+    hasEquipped:string = 'hasEquipped';
+    isHolding:string = 'isHolding';
 }
 export { Enum }

@@ -58,6 +58,7 @@ class EnumInputTypes {
         this.health = 'health';
         this.canDigBlock = 'canDigBlock';
         this.hasInInventory = 'hasInInventory';
+        this.hasRecipeInInventory = 'hasRecipeInInventory';
         this.canSeeEntity = 'canSeeEntity';
         this.canSeeBlock = 'canSeeBlock';
         this.canTouchBlock = 'canTouchBlock';
@@ -78,6 +79,8 @@ class EnumInputTypes {
         this.chestLidMove = 'chestLidMove';
         this.blockBreakProgressEnd = 'blockBreakProgressEnd';
         this.blockBreakProgressObserved = 'blockBreakProgressObserved';
+        this.hasEquipped = 'hasEquipped';
+        this.isHolding = 'isHolding';
     }
 }
 //# sourceMappingURL=Enum.js.map
