@@ -8,8 +8,6 @@ class Enum{
     }
 }
 class EnumOutputTypes{
-    walkTo:string = 'walkTo';
-    navigateTo:string = 'navigateTo';
     chat:string = 'chat';
     walkForward:string = 'walkForward';
     walkBack:string = 'walkBack';
@@ -51,25 +49,28 @@ class EnumOutputTypes{
 
 }
 class EnumInputTypes{
-    isOn:string = 'isOn';
-    isIn:string = 'isIn';
-    collision:string = 'collision';
-    health:string = 'health';
-    canDigBlock:string = 'canDigBlock';
+
     hasInInventory:string = 'hasInInventory';
     hasRecipeInInventory:string = 'hasRecipeInInventory';
-    canSeeEntity:string = 'canSeeEntity';
-    canSeeBlock:string = 'canSeeBlock';
-    canTouchBlock:string = 'canTouchBlock';
+    entityAt:string = 'entityAt';
+    blockAt:string = 'blockAt';
     chat:string = 'chat';
+    entityMoved:string = 'entityMoved';
+    entityUpdate:string = 'entityUpdate';
+    hasEquipped:string = 'hasEquipped';
+    isHolding:string = 'isHolding';
+
+    health:string = 'health';
+
+    /*collision:string = 'collision';
     onCorrelateAttack:string = 'onCorrelateAttack';
     rain:string = 'rain';
-    entityMoved:string = 'entityMoved';
+
     entitySwingArm:string ='entitySwingArm';
     entitySpawn:string = 'entitySpawn';
     entityHurt:string = 'entityHurt';
     playerCollect:string = 'playerCollect';
-    entityUpdate:string = 'entityUpdate';
+
     blockUpdate:string = 'blockUpdate';
     diggingCompleted:string = 'diggingCompleted';
     diggingAborted:string = 'diggingAborted';
@@ -77,8 +78,7 @@ class EnumInputTypes{
     forcedMove:string = 'forcedMove';
     chestLidMove:string = 'chestLidMove';
     blockBreakProgressEnd:string = 'blockBreakProgressEnd';
-    blockBreakProgressObserved:string = 'blockBreakProgressObserved';
-    hasEquipped:string = 'hasEquipped';
-    isHolding:string = 'isHolding';
+    blockBreakProgressObserved:string = 'blockBreakProgressObserved';*/
+
 }
 export { Enum }

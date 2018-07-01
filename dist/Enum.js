@@ -11,8 +11,6 @@ class Enum {
 exports.Enum = Enum;
 class EnumOutputTypes {
     constructor() {
-        this.walkTo = 'walkTo';
-        this.navigateTo = 'navigateTo';
         this.chat = 'chat';
         this.walkForward = 'walkForward';
         this.walkBack = 'walkBack';
@@ -52,35 +50,33 @@ class EnumOutputTypes {
 }
 class EnumInputTypes {
     constructor() {
-        this.isOn = 'isOn';
-        this.isIn = 'isIn';
-        this.collision = 'collision';
-        this.health = 'health';
-        this.canDigBlock = 'canDigBlock';
         this.hasInInventory = 'hasInInventory';
         this.hasRecipeInInventory = 'hasRecipeInInventory';
-        this.canSeeEntity = 'canSeeEntity';
-        this.canSeeBlock = 'canSeeBlock';
-        this.canTouchBlock = 'canTouchBlock';
+        this.entityAt = 'entityAt';
+        this.blockAt = 'blockAt';
         this.chat = 'chat';
-        this.onCorrelateAttack = 'onCorrelateAttack';
-        this.rain = 'rain';
         this.entityMoved = 'entityMoved';
-        this.entitySwingArm = 'entitySwingArm';
-        this.entitySpawn = 'entitySpawn';
-        this.entityHurt = 'entityHurt';
-        this.playerCollect = 'playerCollect';
         this.entityUpdate = 'entityUpdate';
-        this.blockUpdate = 'blockUpdate';
-        this.diggingCompleted = 'diggingCompleted';
-        this.diggingAborted = 'diggingAborted';
-        this.move = 'move';
-        this.forcedMove = 'forcedMove';
-        this.chestLidMove = 'chestLidMove';
-        this.blockBreakProgressEnd = 'blockBreakProgressEnd';
-        this.blockBreakProgressObserved = 'blockBreakProgressObserved';
         this.hasEquipped = 'hasEquipped';
         this.isHolding = 'isHolding';
+        this.health = 'health';
+        /*collision:string = 'collision';
+        onCorrelateAttack:string = 'onCorrelateAttack';
+        rain:string = 'rain';
+    
+        entitySwingArm:string ='entitySwingArm';
+        entitySpawn:string = 'entitySpawn';
+        entityHurt:string = 'entityHurt';
+        playerCollect:string = 'playerCollect';
+    
+        blockUpdate:string = 'blockUpdate';
+        diggingCompleted:string = 'diggingCompleted';
+        diggingAborted:string = 'diggingAborted';
+        move:string = 'move';
+        forcedMove:string = 'forcedMove';
+        chestLidMove:string = 'chestLidMove';
+        blockBreakProgressEnd:string = 'blockBreakProgressEnd';
+        blockBreakProgressObserved:string = 'blockBreakProgressObserved';*/
     }
 }
 //# sourceMappingURL=Enum.js.map
