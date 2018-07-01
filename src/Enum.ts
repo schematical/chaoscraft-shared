@@ -57,18 +57,19 @@ class EnumInputTypes{
     chat:string = 'chat';
     entityMoved:string = 'entityMoved';
     entityUpdate:string = 'entityUpdate';
+    entitySwingArm:string ='entitySwingArm';
+    entitySpawn:string = 'entitySpawn';
+    entityHurt:string = 'entityHurt';
     hasEquipped:string = 'hasEquipped';
     isHolding:string = 'isHolding';
 
     health:string = 'health';
 
-    /*collision:string = 'collision';
+    collision:string = 'collision';
     onCorrelateAttack:string = 'onCorrelateAttack';
     rain:string = 'rain';
 
-    entitySwingArm:string ='entitySwingArm';
-    entitySpawn:string = 'entitySpawn';
-    entityHurt:string = 'entityHurt';
+    /*
     playerCollect:string = 'playerCollect';
 
     blockUpdate:string = 'blockUpdate';

@@ -57,16 +57,16 @@ class EnumInputTypes {
         this.chat = 'chat';
         this.entityMoved = 'entityMoved';
         this.entityUpdate = 'entityUpdate';
+        this.entitySwingArm = 'entitySwingArm';
+        this.entitySpawn = 'entitySpawn';
+        this.entityHurt = 'entityHurt';
         this.hasEquipped = 'hasEquipped';
         this.isHolding = 'isHolding';
         this.health = 'health';
-        /*collision:string = 'collision';
-        onCorrelateAttack:string = 'onCorrelateAttack';
-        rain:string = 'rain';
-    
-        entitySwingArm:string ='entitySwingArm';
-        entitySpawn:string = 'entitySpawn';
-        entityHurt:string = 'entityHurt';
+        this.collision = 'collision';
+        this.onCorrelateAttack = 'onCorrelateAttack';
+        this.rain = 'rain';
+        /*
         playerCollect:string = 'playerCollect';
     
         blockUpdate:string = 'blockUpdate';
