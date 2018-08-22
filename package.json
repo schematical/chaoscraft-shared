@@ -8,8 +8,7 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "dependencies": {
     "@types/node": "^7.0.5",
     "underscore": "^1.8.3"

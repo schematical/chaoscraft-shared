@@ -12,7 +12,6 @@ class EnumOutputTypes{
     walkForward:string = 'walkForward';
     walkBack:string = 'walkBack';
     stopWalking:string = 'stopWalking';
-    lookAt:string = 'lookAt';
     dig:string = 'dig';
     placeBlock:string = 'placeBlock';
     equip:string = 'equip';
@@ -42,14 +41,13 @@ class EnumOutputTypes{
     openVillager:string = 'openVillager';
     trade:string = 'trade';
     openEntity:string = 'openEntity';
-    equipAndPlace:string = 'equipAndPlace';
 
 
 
 
 }
 class EnumInputTypes{
-
+    debug:string = 'debug';
     hasInInventory:string = 'hasInInventory';
     hasRecipeInInventory:string = 'hasRecipeInInventory';
     entityAt:string = 'entityAt';
@@ -68,13 +66,14 @@ class EnumInputTypes{
     collision:string = 'collision';
     onCorrelateAttack:string = 'onCorrelateAttack';
     rain:string = 'rain';
-
-    /*
     playerCollect:string = 'playerCollect';
 
+
+    /*
     blockUpdate:string = 'blockUpdate';
     diggingCompleted:string = 'diggingCompleted';
     diggingAborted:string = 'diggingAborted';
+
     move:string = 'move';
     forcedMove:string = 'forcedMove';
     chestLidMove:string = 'chestLidMove';

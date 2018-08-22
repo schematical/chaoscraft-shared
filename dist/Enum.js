@@ -15,7 +15,6 @@ class EnumOutputTypes {
         this.walkForward = 'walkForward';
         this.walkBack = 'walkBack';
         this.stopWalking = 'stopWalking';
-        this.lookAt = 'lookAt';
         this.dig = 'dig';
         this.placeBlock = 'placeBlock';
         this.equip = 'equip';
@@ -45,11 +44,11 @@ class EnumOutputTypes {
         this.openVillager = 'openVillager';
         this.trade = 'trade';
         this.openEntity = 'openEntity';
-        this.equipAndPlace = 'equipAndPlace';
     }
 }
 class EnumInputTypes {
     constructor() {
+        this.debug = 'debug';
         this.hasInInventory = 'hasInInventory';
         this.hasRecipeInInventory = 'hasRecipeInInventory';
         this.entityAt = 'entityAt';
@@ -66,12 +65,12 @@ class EnumInputTypes {
         this.collision = 'collision';
         this.onCorrelateAttack = 'onCorrelateAttack';
         this.rain = 'rain';
+        this.playerCollect = 'playerCollect';
         /*
-        playerCollect:string = 'playerCollect';
-    
         blockUpdate:string = 'blockUpdate';
         diggingCompleted:string = 'diggingCompleted';
         diggingAborted:string = 'diggingAborted';
+    
         move:string = 'move';
         forcedMove:string = 'forcedMove';
         chestLidMove:string = 'chestLidMove';
