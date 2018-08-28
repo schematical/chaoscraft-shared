@@ -40,7 +40,7 @@ class EnumOutputTypes{
     openEnchantmentTable:string = 'openEnchantmentTable';
     openVillager:string = 'openVillager';
     trade:string = 'trade';
-    openEntity:string = 'openEntity';
+    //openEntity:string = 'openEntity';
 
 
 
