@@ -43,7 +43,7 @@ class EnumOutputTypes {
         this.openEnchantmentTable = 'openEnchantmentTable';
         this.openVillager = 'openVillager';
         this.trade = 'trade';
-        this.openEntity = 'openEntity';
+        //openEntity:string = 'openEntity';
     }
 }
 class EnumInputTypes {
