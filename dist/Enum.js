@@ -7,6 +7,9 @@ class Enum {
     static get InputTypes() {
         return new EnumInputTypes();
     }
+    static get ChatWords() {
+        return new EnumChatWords();
+    }
 }
 exports.Enum = Enum;
 class EnumOutputTypes {
@@ -76,6 +79,36 @@ class EnumInputTypes {
         chestLidMove:string = 'chestLidMove';
         blockBreakProgressEnd:string = 'blockBreakProgressEnd';
         blockBreakProgressObserved:string = 'blockBreakProgressObserved';*/
+    }
+}
+class EnumChatWords {
+    constructor() {
+        this.Alpha = 'Alpha';
+        this.Bravo = 'Bravo';
+        this.Charlie = 'Charlie';
+        this.Delta = 'Delta';
+        this.Echo = 'Echo';
+        this.Foxtrot = 'Foxtrot';
+        this.Golf = 'Golf';
+        this.Hotel = 'Hotel';
+        this.India = 'India';
+        this.Juliett = 'Juliett';
+        this.Kilo = 'Kilo';
+        this.Lima = 'Lima';
+        this.Mike = 'Mike';
+        this.November = 'November';
+        this.Oscar = 'Oscar';
+        this.Papa = 'Papa';
+        this.Quebec = 'Quebec';
+        this.Romeo = 'Romeo';
+        this.Sierra = 'Sierra';
+        this.Tango = 'Tango';
+        this.Uniform = 'Uniform';
+        this.Victor = 'Victor';
+        this.Whiskey = 'Whiskey';
+        this['X-ray'] = 'X-ray';
+        this.Yankee = 'Yankee';
+        this.Zulu = 'Zulu';
     }
 }
 //# sourceMappingURL=Enum.js.map

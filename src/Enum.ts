@@ -6,6 +6,9 @@ class Enum{
     static get InputTypes():EnumInputTypes{
         return new EnumInputTypes();
     }
+    static get ChatWords():EnumChatWords{
+        return new EnumChatWords();
+    }
 }
 class EnumOutputTypes{
     chat:string = 'chat';
@@ -42,9 +45,6 @@ class EnumOutputTypes{
     trade:string = 'trade';
     //openEntity:string = 'openEntity';
 
-
-
-
 }
 class EnumInputTypes{
     debug:string = 'debug';
@@ -79,6 +79,35 @@ class EnumInputTypes{
     chestLidMove:string = 'chestLidMove';
     blockBreakProgressEnd:string = 'blockBreakProgressEnd';
     blockBreakProgressObserved:string = 'blockBreakProgressObserved';*/
+
+}
+class EnumChatWords{
+    Alpha:string = 'Alpha';
+    Bravo:string = 'Bravo';
+    Charlie:string = 'Charlie';
+    Delta:string = 'Delta';
+    Echo:string = 'Echo';
+    Foxtrot:string = 'Foxtrot';
+    Golf:string = 'Golf';
+    Hotel:string = 'Hotel';
+    India:string = 'India';
+    Juliett:string = 'Juliett';
+    Kilo:string = 'Kilo';
+    Lima:string = 'Lima';
+    Mike:string = 'Mike';
+    November:string = 'November';
+    Oscar:string = 'Oscar';
+    Papa:string = 'Papa';
+    Quebec:string = 'Quebec';
+    Romeo:string = 'Romeo';
+    Sierra:string = 'Sierra';
+    Tango:string = 'Tango';
+    Uniform:string = 'Uniform';
+    Victor:string = 'Victor';
+    Whiskey:string = 'Whiskey';
+    'X-ray':string = 'X-ray';
+    Yankee:string = 'Yankee';
+    Zulu:string = 'Zulu';
 
 }
 export { Enum }
